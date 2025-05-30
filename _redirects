@@ -1,1 +1,1 @@
-/.well-known/*  /404.html  404
+/.well-known/*  /.well-known/:splat  200
