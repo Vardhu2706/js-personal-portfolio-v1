@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets//favicon-16x16.png">
+
     <title>Vardhaman Ayyagari</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/feather-icons"></script>
@@ -12,89 +16,169 @@
 <body class="bg-white text-gray-900 font-sans flex flex-col items-center">
 
     <!-- Navbar -->
-    <nav class="w-full max-w-3xl flex justify-between items-center py-4 border-b px-4">
-        <div class="text-xl font-bold">VA</div>
+    <nav class="w-full max-w-3xl flex justify-between items-center py-4 px-4">
+        <div class="text-xl font-bold"><span class="text-gray-900">VA</span></div>
         <div class="flex items-center gap-4 text-gray-600 text-sm">
-
-            <a href="/Vardhaman Ayyagari Resume.pdf" target="_blank">Resume</a>
 
             <span class="flex items-center gap-1">
                 <a href="tel:+919618122355" class="flex items-center gap-1 text-sm text-gray-600 hover:underline">
-                    <i data-feather="phone" class="w-4 h-4 text-green-500"></i> +91 9618122355
+                    <i data-feather="phone" class="w-4 h-4 text-gray-900"></i> +91 9618122355
                 </a>
             </span>
-            <a href="https://github.com/Vardhu2706" target="_blank" title="GitHub">
-                <i data-feather="github" class="w-5 h-5 text-gray-800"></i>
+            <div class="w-px h-6 bg-gray-200"></div>
+            <a href="https://github.com/Vardhu2706" target="_blank" title="GitHub"
+                class="flex items-center justify-center w-9 h-9 rounded-lg bg-[#fe750e]/10 hover:bg-[#fe750e]/20 transition-colors">
+                <i data-feather="github" class="w-5 h-5 text-gray-900"></i>
             </a>
-            <a href="mailto:vardhaman.ay@gmail.com" title="Email">
-                <i data-feather="mail" class="w-5 h-5 text-blue-500"></i>
+            <a href="mailto:vardhaman.ay@gmail.com" title="Email"
+                class="flex items-center justify-center w-9 h-9 rounded-lg bg-[#fe750e]/10 hover:bg-[#fe750e]/20 transition-colors">
+                <i data-feather="mail" class="w-5 h-5 text-gray-900"></i>
             </a>
-            <a href="https://linkedin.com/in/vardhaman-ay" target="_blank" title="LinkedIn">
-                <i data-feather="linkedin" class="w-5 h-5 text-blue-700"></i>
+            <a href="https://linkedin.com/in/vardhaman-ay" target="_blank" title="LinkedIn"
+                class="flex items-center justify-center w-9 h-9 rounded-lg bg-[#fe750e]/10 hover:bg-[#fe750e]/20 transition-colors">
+                <i data-feather="linkedin" class="w-5 h-5 text-gray-900"></i>
             </a>
         </div>
     </nav>
 
+    <!-- Hero -->
+    <section class="relative overflow-hidden w-full"
+        style="background: radial-gradient(circle at 80% 20%, rgba(254,117,14,.10), transparent 45%), radial-gradient(circle at 20% 80%, rgba(254,117,14,.05), transparent 50%), #fff;">
+        <div class="absolute rounded-full pointer-events-none"
+            style="right:-250px; top:-150px; width:700px; height:700px; background:rgba(254,117,14,.08);"></div>
+        <div class="absolute rounded-full pointer-events-none"
+            style="right:-100px; top:-80px; width:450px; height:450px; border:70px solid rgba(254,117,14,.06);">
+        </div>
+        <div class="relative w-full max-w-3xl mx-auto px-6 py-8">
+            <h1 class="text-3xl font-bold mb-2">Vardhaman Ayyagari</h1>
+            <p class="flex items-center gap-1 text-sm text-gray-600">
+                <i data-feather="map-pin" class="w-4 h-4 text-gray-500"></i> Hyderabad, India
+            </p>
+            <p class="text-gray-600 mt-4">Hello there, I'm a backend engineer with 4 years of experience in
+                automation and
+                backend systems, building scalable asynchronous
+                pipelines and production-grade APIs.</p>
+            <a href="/Vardhaman Ayyagari Resume.pdf" target="_blank" style="background-color: #fe750e;"
+                class="inline-block mt-6 whitespace-nowrap font-bold text-sm text-black px-4 py-1.5 rounded-md hover:opacity-90 transition-opacity">Résumé
+                →</a>
+        </div>
+    </section>
+
     <!-- Main Content -->
     <div class="w-full max-w-3xl px-6 py-8">
 
-        <!-- Hero -->
-        <section>
-            <h1 class="text-3xl font-bold mb-2">Vardhaman Ayyagari</h1>
-            <p class="text-gray-600">Hello there, I'm a software engineer transitioning into backend development,
-                focusing on scalable design and hands-on project building.</p>
-        </section>
-
-        <!-- Work -->
-        <section class="mt-8">
-            <h2 class="text-2xl font-semibold mb-4">Work</h2>
-            <p class="font-medium">Software Developer – AVRL.io</p>
-            <p class="text-gray-600">2021 – Present</p>
-            <p class="text-gray-800 mt-2">Developed automation scripts for a custom browser using internal JS libraries,
-                later prototyped in Python to improve reliability. Gained cross-functional experience across scripting,
-                testing, infrastructure, and backend development, with a growing focus on scalable system design.</p>
-        </section>
-
         <!-- Skills -->
-        <section class="mt-8">
-            <h2 class="text-2xl font-semibold mb-4">Skills</h2>
-            <div class="text-gray-700">
-                <p class="mb-2"><span class="font-medium">Languages:</span> Python, GoLang, JavaScript, TypeScript, SQL
-                </p>
-                <p><span class="font-medium">Technologies:</span> FastAPI, Django, MySQL, PostgreSQL, MongoDB, React,
-                    Docker, Kubernetes, Kafka, RabbitMQ, Git, AWS, GCP</p>
+        <section>
+            <h2 class="text-xl font-semibold mb-4">Skills</h2>
+            <div>
+                <p class="text-sm text-gray-500 mb-1.5">Core</p>
+                <div class="flex flex-wrap gap-1.5 mb-3">
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">Python</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">FastAPI</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">Flask</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">Kafka</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">AsyncIO</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">PostgreSQL</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">Redis</span>
+                    <span class="bg-gray-800 text-white text-sm font-medium px-2.5 py-1 rounded-md">REST API
+                        Design</span>
+                </div>
+                <p class="text-sm text-gray-500 mb-1.5">Secondary</p>
+                <div class="flex flex-wrap gap-1.5">
+                    <span
+                        class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md">JavaScript</span>
+                    <span
+                        class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md">Docker</span>
+                    <span class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md"
+                        title="ECS, RDS, MSK, ElastiCache, S3">AWS</span>
+                    <span class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md"
+                        title="Cloud Run/Build">GCP</span>
+                    <span
+                        class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md">Terraform</span>
+                    <span
+                        class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md">Git</span>
+                    <span
+                        class="bg-gray-100 border border-gray-300 text-gray-600 text-sm px-2.5 py-1 rounded-md">Linux</span>
+                </div>
             </div>
         </section>
 
+        <!-- Work -->
+        <section class="mt-8 pt-8 border-t border-gray-200">
+            <h2 class="text-xl font-semibold mb-4">Work</h2>
+            <div class="relative border-l-2 border-gray-200 pl-8">
+                <span
+                    class="absolute -left-px top-1.5 w-3 h-3 -translate-x-1/2 rounded-full border-2 border-gray-300 bg-white"></span>
+                <div class="pb-1">
+                    <div class="flex items-center gap-3 mb-2">
+                        <img src="assets/advanced_voice_research_labs_logo.png" alt="AVRL.io logo"
+                            class="w-10 h-10 rounded-full object-cover border border-gray-200" />
+                        <div class="flex-1 min-w-0">
+                            <div class="flex justify-between items-baseline gap-3">
+                                <p class="font-medium leading-5">AVRL.io [via Husys Consulting Limited]</p>
+                                <p class="text-gray-500 text-sm leading-5 whitespace-nowrap">Oct 2021 – Sept 2025</p>
+                            </div>
+                            <p class="text-gray-600 text-sm leading-5 font-bold">Software Engineer</p>
+                        </div>
+                    </div>
+                    <ul class="list-disc ml-5 space-y-2 text-justify">
+                        <li class="text-gray-800">Designed and maintained RPA-style automation systems using
+                            JavaScript and
+                            Python to automate high-frequency logistics and freight bidding workflows, significantly
+                            reducing
+                            manual operational
+                            effort.</li>
+                        <li class="text-gray-800">Built and deployed automation scripts across client-managed
+                            Windows VMs,
+                            ensuring stability, fault tolerance,
+                            and production reliability in heterogeneous environments.</li>
+                        <li class="text-gray-800">Containerized a custom browser-based automation stack using
+                            Docker and
+                            prototyped a Python
+                            Playwright-based replacement, improving portability, maintainability, and testability of
+                            automation
+                            workflows.</li>
+                        <li class="text-gray-800">Contributed to a Flask-based internal onboarding platform
+                            (REST APIs,
+                            database
+                            design), gaining hands-on
+                            experience in backend API development and persistence layers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
         <!-- Projects -->
-        <section class="mt-8">
-            <h2 class="text-2xl font-semibold mb-6">Projects</h2>
+        <section class="mt-8 pt-8 border-t border-gray-200">
+            <h2 class="text-xl font-semibold mb-6">Projects</h2>
             <div class="grid gap-4 md:grid-cols-2">
                 <div class="border p-4 rounded-lg hover:shadow">
-                    <h3 class="text-lg font-semibold mb-1">API Key Vault</h3>
-                    <p class="text-gray-600 text-sm mb-2">Secure key manager with FastAPI, React, and 2FA.</p>
-                    <a href="https://github.com/Vardhu2706/farm-api-key-vault" class="text-blue-600 text-sm"
+                    <h3 class="text-base font-semibold mb-1">Real-time Feature Store Pipeline</h3>
+                    <p class="text-gray-600 text-sm mb-2">Kafka/AsyncIO pipeline streaming TSSPDCL accident data into
+                        a Redis feature store, served via FastAPI with an AI-powered dashboard.</p>
+                    <div class="flex flex-wrap gap-1.5 mb-2">
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Kafka</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">FastAPI</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Redis</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">AWS</span>
+                    </div>
+                    <a href="https://github.com/Vardhu2706/py-tsspdcl-feature-store" class="text-blue-600 text-sm"
                         target="_blank">GitHub →</a>
                 </div>
 
                 <div class="border p-4 rounded-lg hover:shadow">
-                    <h3 class="text-lg font-semibold mb-1">Distributed Task Queue</h3>
-                    <p class="text-gray-600 text-sm mb-2">Async task runner using FastAPI, Redis, Celery.</p>
-                    <a href="https://github.com/Vardhu2706/py-distributed-task-queue-v1" class="text-blue-600 text-sm"
-                        target="_blank">GitHub →</a>
-                </div>
-
-                <div class="border p-4 rounded-lg hover:shadow">
-                    <h3 class="text-lg font-semibold mb-1">Async Notification Service</h3>
-                    <p class="text-gray-600 text-sm mb-2">Email/push delivery via RabbitMQ, FastAPI.</p>
-                    <a href="https://github.com/Vardhu2706/py-async-notification-service" class="text-blue-600 text-sm"
-                        target="_blank">GitHub →</a>
-                </div>
-
-                <div class="border p-4 rounded-lg hover:shadow">
-                    <h3 class="text-lg font-semibold mb-1">Distributed File Storage</h3>
-                    <p class="text-gray-600 text-sm mb-2">GoLang P2P file sharing using TCP & goroutines.</p>
-                    <a href="https://github.com/Vardhu2706/go-distributed-file-storage" class="text-blue-600 text-sm"
+                    <h3 class="text-base font-semibold mb-1">Secure SFTP Ingestion Pipeline</h3>
+                    <p class="text-gray-600 text-sm mb-2">Multi-vendor SFTP ingestion with PGP encryption, idempotent
+                        processing, and AI-based document interpretation.</p>
+                    <div class="flex flex-wrap gap-1.5 mb-2">
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Flask</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">SFTP</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">PGP</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Redis Queue</span>
+                    </div>
+                    <a href="https://github.com/Vardhu2706/py-sftp-ingestion-consumer" class="text-blue-600 text-sm"
                         target="_blank">GitHub →</a>
                 </div>
             </div>
@@ -105,25 +189,46 @@
         </section>
 
         <!-- Certifications -->
-        <section class="mt-12">
-            <h2 class="text-2xl font-semibold mb-4">Certifications</h2>
+        <section class="mt-12 pt-8 border-t border-gray-200">
+            <h2 class="text-xl font-semibold mb-4">Certifications</h2>
             <ul class="list-disc ml-5 text-gray-700">
                 <li class="mb-2">
-                    <span class="font-medium">GCP Certified Associate Cloud Engineer (2023)</span> –
-                    <a href="https://www.credly.com/badges/7259c016-9c98-4419-9008-e99520558458" target="_blank"
-                        class="text-blue-600 hover:underline">View Credential</a>
+                    <span class="font-medium">MLOps | Machine Learning Operations Specialization – Coursera,
+                        Duke University (2025)</span>
+                    <a href="https://coursera.org/share/16c1f2165d7afe8e931ccf6c03e40060" target="_blank"
+                        class="inline-flex text-blue-600 hover:opacity-80" title="View Credential">
+                        <i data-feather="external-link" class="w-4 h-4"></i>
+                    </a>
                 </li>
                 <li class="mb-2">
-                    <span class="font-medium">AWS Certified Developer - Associate</span> – Previously certified
+                    <span class="font-medium">GCP Certified Associate Cloud Engineer (2023)</span>
+                    <a href="https://www.credly.com/badges/7259c016-9c98-4419-9008-e99520558458" target="_blank"
+                        class="inline-flex text-blue-600 hover:opacity-80" title="View Credential">
+                        <i data-feather="external-link" class="w-4 h-4"></i>
+                    </a>
                 </li>
+
             </ul>
+        </section>
+
+        <!-- Education -->
+        <section class="mt-12 pt-8 border-t border-gray-200">
+            <h2 class="text-xl font-semibold mb-4">Education</h2>
+            <div class="relative border-l-2 border-gray-200 pl-8">
+                <span
+                    class="absolute -left-px top-1.5 w-3 h-3 -translate-x-1/2 rounded-full border-2 border-gray-300 bg-white"></span>
+                <div class="pb-1">
+                    <p class="font-medium">Geethanjali College of Engineering & Technology</p>
+                    <p class="text-gray-600 text-sm">B. Tech · Hyderabad, TS</p>
+                </div>
+            </div>
         </section>
 
     </div>
 
     <!-- Footer -->
     <footer class="w-full max-w-3xl text-sm text-gray-500 border-t py-4 px-6 text-center">
-        Hyderabad, India · <a href="mailto:vardhaman.ay@gmail.com" class="hover:underline">vardhaman.ay@gmail.com</a>
+
     </footer>
 
     <!-- Feather Icons Init -->
