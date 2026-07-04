@@ -148,29 +148,31 @@
         <section class="mt-8 pt-8 border-t border-gray-200">
             <h2 class="text-xl font-semibold mb-6">Projects</h2>
             <div class="grid gap-4 md:grid-cols-2">
-                <div class="border p-4 rounded-lg hover:shadow">
+                <div class="relative overflow-hidden border p-4 rounded-lg hover:shadow"
+                    style="background: radial-gradient(circle at 80% 20%, rgba(254,117,14,.10), transparent 45%), radial-gradient(circle at 20% 80%, rgba(254,117,14,.05), transparent 50%), #fff;">
                     <h3 class="text-base font-semibold mb-1">Real-time Feature Store Pipeline</h3>
                     <p class="text-gray-600 text-sm mb-2">Kafka/AsyncIO pipeline streaming TSSPDCL accident data into
                         a Redis feature store, served via FastAPI with an AI-powered dashboard.</p>
                     <div class="flex flex-wrap gap-1.5 mb-2">
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Kafka</span>
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">FastAPI</span>
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Redis</span>
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">AWS</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">Kafka</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">FastAPI</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">Redis</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">AWS</span>
                     </div>
                     <a href="https://github.com/Vardhu2706/py-tsspdcl-feature-store" class="text-blue-600 text-sm"
                         target="_blank">GitHub →</a>
                 </div>
 
-                <div class="border p-4 rounded-lg hover:shadow">
+                <div class="relative overflow-hidden border p-4 rounded-lg hover:shadow"
+                    style="background: radial-gradient(circle at 80% 20%, rgba(254,117,14,.10), transparent 45%), radial-gradient(circle at 20% 80%, rgba(254,117,14,.05), transparent 50%), #fff;">
                     <h3 class="text-base font-semibold mb-1">Secure SFTP Ingestion Pipeline</h3>
                     <p class="text-gray-600 text-sm mb-2">Multi-vendor SFTP ingestion with PGP encryption, idempotent
                         processing, and AI-based document interpretation.</p>
                     <div class="flex flex-wrap gap-1.5 mb-2">
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Flask</span>
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">SFTP</span>
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">PGP</span>
-                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md">Redis Queue</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">Flask</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">SFTP</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">PGP</span>
+                        <span class="text-sm bg-gray-100 text-gray-600 px-2 py-0.5 rounded-md border border-gray-300">Redis Queue</span>
                     </div>
                     <a href="https://github.com/Vardhu2706/py-sftp-ingestion-consumer" class="text-blue-600 text-sm"
                         target="_blank">GitHub →</a>
