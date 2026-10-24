@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets//apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets//favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
 
     <title>Vardhaman Ayyagari</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="assets/styles.css">
     <style>
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -32,15 +31,15 @@
 
             <a href="https://github.com/Vardhu2706" target="_blank" title="GitHub"
                 class="flex items-center justify-center w-9 h-9 rounded-lg bg-[#fe750e]/10 hover:bg-[#fe750e]/20 transition-colors">
-                <i data-feather="github" class="w-5 h-5 text-gray-900"></i>
+                <svg class="w-5 h-5 text-gray-900" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
             </a>
             <a href="mailto:vardhaman.ay@gmail.com" title="Email"
                 class="flex items-center justify-center w-9 h-9 rounded-lg bg-[#fe750e]/10 hover:bg-[#fe750e]/20 transition-colors">
-                <i data-feather="mail" class="w-5 h-5 text-gray-900"></i>
+                <svg class="w-5 h-5 text-gray-900" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             </a>
             <a href="https://linkedin.com/in/vardhaman-ay" target="_blank" title="LinkedIn"
                 class="flex items-center justify-center w-9 h-9 rounded-lg bg-[#fe750e]/10 hover:bg-[#fe750e]/20 transition-colors">
-                <i data-feather="linkedin" class="w-5 h-5 text-gray-900"></i>
+                <svg class="w-5 h-5 text-gray-900" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             </a>
         </div>
     </nav>
@@ -56,7 +55,7 @@
         <div class="relative w-full max-w-3xl mx-auto px-6 py-8">
             <h1 class="text-3xl font-bold mb-2">Vardhaman Ayyagari</h1>
             <p class="flex items-center gap-1 text-sm text-gray-600">
-                <i data-feather="map-pin" class="w-4 h-4 text-gray-500"></i> Hyderabad, India
+                <svg class="w-4 h-4 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Hyderabad, India
             </p>
             <p class="text-gray-600 mt-4">Hello there, I'm a backend engineer with 4 years of experience in
                 automation and
@@ -111,38 +110,61 @@
         <section class="mt-8 pt-8 border-t border-gray-200">
             <h2 class="text-xl font-semibold mb-4">Work</h2>
             <div class="relative border-l-2 border-gray-200 pl-8">
-                <span
-                    class="absolute -left-px top-1.5 w-3 h-3 -translate-x-1/2 rounded-full border-2 border-gray-300 bg-white"></span>
-                <div class="pb-1">
-                    <div class="flex items-center gap-3 mb-2">
-                        <img src="assets/advanced_voice_research_labs_logo.png" alt="AVRL.io logo"
-                            class="w-10 h-10 rounded-full object-cover border border-gray-200" />
+                <div class="relative pb-10">
+                    <span
+                        class="absolute -left-8 top-1.5 w-3 h-3 -translate-x-1/2 rounded-full border-2 border-[#fe750e] bg-white"></span>
+                    <div class="flex items-start sm:items-center gap-3 mb-3">
+                        <img src="assets/apps_associates_logo.png" alt="Apps Associates logo" width="40" height="40"
+                            class="w-10 h-10 shrink-0 rounded-full object-cover border border-gray-200" />
                         <div class="flex-1 min-w-0">
-                            <div class="flex justify-between items-baseline gap-3">
-                                <p class="font-medium leading-5">AVRL.io [via Husys Consulting Limited]</p>
-                                <p class="text-gray-500 text-sm leading-5 whitespace-nowrap">Oct 2021 – Sept 2025</p>
+                            <div class="flex flex-col items-start gap-1 sm:flex-row sm:justify-between sm:items-baseline sm:gap-3">
+                                <p class="font-semibold text-gray-900 leading-5">Apps Associates <span
+                                        class="font-normal text-gray-500 text-sm">· Full-time</span></p>
+                                <p class="text-xs font-medium text-[#e5640a] bg-[#fe750e]/10 px-2 py-0.5 rounded-full whitespace-nowrap">
+                                    Jul 2026 – Present · 4 mos</p>
                             </div>
-                            <p class="text-gray-600 text-sm leading-5 font-bold">Software Engineer</p>
+                            <p class="text-[#e5640a] text-sm leading-5 font-semibold">Staff Consultant</p>
+                            <p class="flex items-center gap-1 text-gray-500 text-sm leading-5"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Hyderabad, Telangana, India · Hybrid</p>
                         </div>
                     </div>
-                    <ul class="list-disc ml-5 space-y-2 text-justify">
-                        <li class="text-gray-800">Designed and maintained RPA-style automation systems using
+                    <ul class="list-disc ml-5 space-y-2 sm:text-justify">
+                        <li class="text-gray-700">Building enterprise applications and AI systems.</li>
+                    </ul>
+                </div>
+                <div class="relative">
+                    <span
+                        class="absolute -left-8 top-1.5 w-3 h-3 -translate-x-1/2 rounded-full border-2 border-gray-300 bg-white"></span>
+                    <div class="flex items-start sm:items-center gap-3 mb-3">
+                        <img src="assets/advanced_voice_research_labs_logo.png" alt="AVRL.io logo" width="40" height="40" loading="lazy"
+                            class="w-10 h-10 shrink-0 rounded-full object-cover border border-gray-200" />
+                        <div class="flex-1 min-w-0">
+                            <div class="flex flex-col items-start gap-1 sm:flex-row sm:justify-between sm:items-baseline sm:gap-3">
+                                <p class="font-semibold text-gray-900 leading-5">AVRL.io <span
+                                        class="font-normal text-gray-500 text-sm">[via Husys Consulting Limited]</span></p>
+                                <p class="text-xs font-medium text-gray-600 bg-gray-100 px-2 py-0.5 rounded-full whitespace-nowrap">
+                                    Oct 2021 – Sept 2025</p>
+                            </div>
+                            <p class="text-gray-700 text-sm leading-5 font-semibold">Software Engineer</p>
+                        </div>
+                    </div>
+                    <ul class="list-disc ml-5 space-y-2 sm:text-justify">
+                        <li class="text-gray-700">Designed and maintained RPA-style automation systems using
                             JavaScript and
                             Python to automate high-frequency logistics and freight bidding workflows, significantly
                             reducing
                             manual operational
                             effort.</li>
-                        <li class="text-gray-800">Built and deployed automation scripts across client-managed
+                        <li class="text-gray-700">Built and deployed automation scripts across client-managed
                             Windows VMs,
                             ensuring stability, fault tolerance,
                             and production reliability in heterogeneous environments.</li>
-                        <li class="text-gray-800">Containerized a custom browser-based automation stack using
+                        <li class="text-gray-700">Containerized a custom browser-based automation stack using
                             Docker and
                             prototyped a Python
                             Playwright-based replacement, improving portability, maintainability, and testability of
                             automation
                             workflows.</li>
-                        <li class="text-gray-800">Contributed to a Flask-based internal onboarding platform
+                        <li class="text-gray-700">Contributed to a Flask-based internal onboarding platform
                             (REST APIs,
                             database
                             design), gaining hands-on
@@ -203,14 +225,14 @@
                         Duke University (2025)</span>
                     <a href="https://coursera.org/share/16c1f2165d7afe8e931ccf6c03e40060" target="_blank"
                         class="inline-flex text-blue-600 hover:opacity-80" title="View Credential">
-                        <i data-feather="external-link" class="w-4 h-4"></i>
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                     </a>
                 </li>
                 <li class="mb-2">
                     <span class="font-medium">GCP Certified Associate Cloud Engineer (2023)</span>
                     <a href="https://www.credly.com/badges/7259c016-9c98-4419-9008-e99520558458" target="_blank"
                         class="inline-flex text-blue-600 hover:opacity-80" title="View Credential">
-                        <i data-feather="external-link" class="w-4 h-4"></i>
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                     </a>
                 </li>
 
@@ -237,10 +259,6 @@
 
     </footer>
 
-    <!-- Feather Icons Init -->
-    <script>
-        feather.replace();
-    </script>
 </body>
 
 </html>
